@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "birthday-calendar-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/birthdayCalendar/BirthdayCalendarWebPart.js",
+          "manifest": "./src/webparts/birthdayCalendar/BirthdayCalendarWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "BirthdayCalendarWebPartStrings": "lib/webparts/birthdayCalendar/loc/{locale}.js"
+  }
+}

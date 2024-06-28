@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-birthday-calendar-client-side-solution",
+    "id": "655e6dea-77ec-4a78-b51a-0859facc3b1b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-birthday-calendar description"
+      },
+      "longDescription": {
+        "default": "spfx-birthday-calendar description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-birthday-calendar Feature",
+        "description": "The feature that activates elements of the spfx-birthday-calendar solution.",
+        "id": "1494da68-ee73-4fc6-bbea-a49f84422b0f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-birthday-calendar.sppkg"
+  }
+}

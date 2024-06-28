@@ -1,0 +1,37 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.birthdayCalendar {
+  overflow: hidden;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.container {
+  padding: 1rem;
+}
+
+.user {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-left: solid 2px #e94f3d;
+  box-shadow: -10px 0px 12px -6px rgba(233, 79, 61, 0.75);
+  background-color: hsl(0, 0%, 90%);
+  border-radius: 0.25rem;
+  padding-left: 1rem;
+}
+
+.image {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  font-weight: bold;
+  font-size: 0.8rem;
+  border: solid 2px black;
+  display: grid;
+  place-items: center;
+}
